@@ -15,6 +15,16 @@ def count_hi(str):
   in the given string. 
   """
   return str.count("hi")
+'''
+  if you want to use the for loop which I think is what they want you to figure out how to use,
+  this works:
+  def count_hi(str):
+  count = 0
+  for i in range(len(str)-1):
+    if str[i] == 'h' and str[i+1] == 'i':
+      count += 1
+  return count
+'''  
 
 def cat_dog(str):
   """
